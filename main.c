@@ -51,10 +51,10 @@ int main(void) {
                              assets, assetCount);
                 break;
             case 6:
-                printf("\nA sair do sistema. Ate breve!\n");
+                printf("\nLogging out of the system. See you soon!\n");
                 break;
             default:
-                printf("\nOpcao invalida. Tente novamente.\n");
+                printf("\nInvalid option. Try again.\n");
         }
     } while (choice != 6);
 
